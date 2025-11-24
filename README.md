@@ -43,6 +43,7 @@ fastapi-demo-products-with-ui/
 └── venv/ (optional)   # Your virtual environment (not pushed to GitHub)
 
 🛠️ Setup & Installation
+
 1️⃣ Clone the Repository
 git clone https://github.com/Anirban1411/fastapi-demo-products-with-ui.git
 cd fastapi-demo-products-with-ui
