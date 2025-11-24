@@ -1,98 +1,95 @@
 FastAPI Products API (PostgreSQL)
 
-A simple and clean FastAPI + PostgreSQL backend project demonstrating basic CRUD operations for products.
-You can interact with the API using FastAPI Docs (/docs) or Postman.
+A simple and clean FastAPI backend project built with PostgreSQL.
+It demonstrates basic CRUD operations for managing products.
+The API can be tested using FastAPI's built-in documentation (/docs) or Postman.
 
 Tech Stack
 
-Backend: FastAPI
+FastAPI
 
-Database: PostgreSQL
+PostgreSQL
 
-ORM / Driver: SQLAlchemy 
+SQLAlchemy
 
-API Testing: Swagger UI (FastAPI Docs), Postman
+Python Virtual Environment
 
-Environment: Python Virtual Environment
+Git & GitHub
 
-Version Control: Git & GitHub
-
-
-🔍 Features
+Features
 
 Create new products
 
-Get all products
+Retrieve all products
 
-Get a single product by ID
+Retrieve a product by ID
 
 Update product details
 
 Delete a product
 
-PostgreSQL database integration
+Integrated with PostgreSQL
 
-Auto-generated documentation via Swagger UI
+Auto-generated API documentation using FastAPI Docs
 
-📂 Project Structure
+Project Structure
 fastapi-demo-products-with-ui/
 │
-├── main.py            # Entry point for FastAPI
-├── models.py          # Product models / DB logic
-├── requirements.txt   # Python dependencies
-└── venv/ (optional)   # Your virtual environment (not pushed to GitHub)
+├── main.py              # FastAPI application
+├── models.py            # Database models and SQLAlchemy logic
+├── requirements.txt     # Project dependencies
+└── venv/ (optional)     # Virtual environment (not included in Git)
 
-🛠️ Setup & Installation
-
-1️⃣ Clone the Repository
+Setup and Installation
+1. Clone the Repository
 git clone https://github.com/Anirban1411/fastapi-demo-products-with-ui.git
 cd fastapi-demo-products-with-ui
 
-2️⃣ Create & Activate Virtual Environment
+2. Create and Activate Virtual Environment
 python3 -m venv venv
-source venv/bin/activate   # Mac / Linux
+source venv/bin/activate     # For macOS and Linux
 
-3️⃣ Install Dependencies
+3. Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Configure PostgreSQL
-Create a database:
+4. Configure PostgreSQL
+
+Create the database:
 
 CREATE DATABASE products_db;
 
-Update your database connection string inside your project if needed:
+
+Update your database connection string inside the project if necessary:
+
 postgresql://username:password@localhost:5432/products_db
 
-Replace:
-username
-password
 
-5️⃣ Run the FastAPI Server
+Replace username and password with your PostgreSQL credentials.
+
+5. Run the FastAPI Server
 uvicorn main:app --reload
 
-▶️ API Usage
-After the server starts, open:
+API Usage
 
-FastAPI Docs (Swagger UI)
+Once the server is running, open the following URL in your browser:
+
 http://127.0.0.1:8000/docs
 
 
-You can test all endpoints directly here.
+This provides an interactive interface for testing all endpoints.
 
-API Endpoints Overview
+API Endpoints
 Method	Endpoint	Description
 GET	/products	Get all products
 GET	/products/{id}	Get product by ID
-POST	/products	Create new product
-PUT	/products/{id}	Update product details
+POST	/products	Create a new product
+PUT	/products/{id}	Update product
 DELETE	/products/{id}	Delete product
 
-(Adjust if your code uses different paths.)
-
+(Modify based on your actual routes if needed.)
 
 Author
 
 Anirban Biswas
 GitHub: @Anirban1411
-
 
