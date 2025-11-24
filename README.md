@@ -84,7 +84,7 @@ http://127.0.0.1:8000/docs
 | PUT    | /products/{id} | Update product       |
 | DELETE | /products/{id} | Delete product       |
 
-##Author
+## Author
 
 Anirban Biswas
 
