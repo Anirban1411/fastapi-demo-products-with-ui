@@ -6,21 +6,32 @@ You can interact with the API using FastAPI Docs (/docs) or Postman.
 Tech Stack
 
 Backend: FastAPI
+
 Database: PostgreSQL
+
 ORM / Driver: SQLAlchemy 
+
 API Testing: Swagger UI (FastAPI Docs), Postman
+
 Environment: Python Virtual Environment
+
 Version Control: Git & GitHub
 
 
 🔍 Features
 
 Create new products
+
 Get all products
+
 Get a single product by ID
+
 Update product details
+
 Delete a product
+
 PostgreSQL database integration
+
 Auto-generated documentation via Swagger UI
 
 📂 Project Structure
