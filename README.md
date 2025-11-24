@@ -6,31 +6,21 @@ You can interact with the API using FastAPI Docs (/docs) or Postman.
 Tech Stack
 
 Backend: FastAPI
-
 Database: PostgreSQL
-
 ORM / Driver: SQLAlchemy 
-
 API Testing: Swagger UI (FastAPI Docs), Postman
-
 Environment: Python Virtual Environment
-
 Version Control: Git & GitHub
+
 
 🔍 Features
 
 Create new products
-
 Get all products
-
 Get a single product by ID
-
 Update product details
-
 Delete a product
-
 PostgreSQL database integration
-
 Auto-generated documentation via Swagger UI
 
 📂 Project Structure
@@ -54,28 +44,21 @@ source venv/bin/activate   # Mac / Linux
 pip install -r requirements.txt
 
 4️⃣ Configure PostgreSQL
-
 Create a database:
 
 CREATE DATABASE products_db;
 
-
 Update your database connection string inside your project if needed:
-
 postgresql://username:password@localhost:5432/products_db
 
-
 Replace:
-
 username
-
 password
 
 5️⃣ Run the FastAPI Server
 uvicorn main:app --reload
 
 ▶️ API Usage
-
 After the server starts, open:
 
 FastAPI Docs (Swagger UI)
